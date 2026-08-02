@@ -32,19 +32,16 @@
 
         raise_layer {
             bindings = <
-<<<<<<< HEAD
 &bt BT_CLR                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans     &trans    &trans    &trans     &trans   &trans
 &mt LG(LS(NUMBER_1)) LG(LS(LA(NUMBER_1)))  &mv_1         &mv_2         &mv_3         &mv_4         &mv_5                         &kp PG_UP  &trans    &kp UP    &trans     &mv_0    &trans
 &trans                                     &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans                                     &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans
                                                          &trans        &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans
-=======
 &bt BT_CLR                                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans     &trans    &trans    &trans     &trans   &trans
 &mt (LG(LS(NUMBER_1))) LG(LS(LA(NUMBER_1)))  &mv_1         &mv_2         &mv_3         &mv_4         &mv_5                         &kp PG_UP  &trans    &kp UP    &trans     &mv_0    &trans
 &trans                                       &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans                                       &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans
                                                            &trans        &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans
->>>>>>> f4eb605 (macro angepasst 2)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
