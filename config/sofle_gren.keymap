@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE       &mt LG(NUMBER_1) NUMBER_1  &ws_2           &ws_3     &ws_4      &ws_5                         &ws_6  &ws_7      &ws_8            &ws_9         &ws_0           &none
+&kp GRAVE       &mt LG(NUMBER_1) NUMBER_1  &kp 2           &kp 3     &kp 4      &kp 4                         &kp 4  &kp 4      &kp 4            &kp 4         &kp 4           &none
 &lt 2 TAB       &kp Q                      &kp W           &kp E     &kp R      &kp T                         &kp Y  &kp U      &kp I            &kp O         &kp P           &kp SQT
 &mt LSHIFT ESC  &kp A                      &kp S           &kp D     &kp F      &kp G                         &kp H  &kp J      &kp K            &kp L         &kp SEMI        &kp BSPC
 &kp LCTRL       &kp Z                      &kp X           &kp C     &kp V      &kp B  &kp C_MUTE  &none      &kp N  &kp M      &mt QMARK COMMA  &mt EXCL DOT  &mt SLASH FSLH  &kp RSHFT
@@ -32,13 +32,8 @@
 
         raise_layer {
             bindings = <
-&bt BT_CLR                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans     &trans    &trans    &trans     &trans   &trans
-&mt LG(LS(NUMBER_1)) LG(LS(LA(NUMBER_1)))  &mv_1         &mv_2         &mv_3         &mv_4         &mv_5                         &kp PG_UP  &trans    &kp UP    &trans     &mv_0    &trans
-&trans                                     &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&trans                                     &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans
-                                                         &trans        &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans
 &bt BT_CLR                                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans     &trans    &trans    &trans     &trans   &trans
-&mt (LG(LS(NUMBER_1))) LG(LS(LA(NUMBER_1)))  &mv_1         &mv_2         &mv_3         &mv_4         &mv_5                         &kp PG_UP  &trans    &kp UP    &trans     &mv_0    &trans
+&mt (LG(LS(NUMBER_1))) LG(LS(LA(NUMBER_1)))  &none         &none         &none         &none         &none                         &kp PG_UP  &trans    &kp UP    &trans     &mv_0    &trans
 &trans                                       &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans                                       &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans
                                                            &trans        &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans
