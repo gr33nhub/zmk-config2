@@ -1,4 +1,4 @@
-#include "sofle_gren.dtsi"
+#include "sofle_green.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -25,7 +25,7 @@
     };
 };
 
-&physical_layout_sofle_gren {
+&physical_layout_sofle_green {
     kscan = <&kscan0>;
 };
 

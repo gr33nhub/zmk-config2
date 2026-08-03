@@ -1,4 +1,4 @@
-#include "sofle_gren-layouts.dtsi"
+#include "sofle_green-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -16,7 +16,7 @@
     };
 };
 
-&physical_layout_sofle_gren {
+&physical_layout_sofle_green {
     transform = <&matrix_transform0>;
 };
 
