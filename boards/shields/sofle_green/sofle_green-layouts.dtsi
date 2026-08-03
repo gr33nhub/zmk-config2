@@ -3,7 +3,7 @@
 / {
     physical_layout_sofle_green: physical_layout_sofle_green {
         compatible = "zmk,physical-layout";
-        display-name = "Sofle gren";
+        display-name = "Sofle green";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0    37>
             , <&key_physical_attrs 100 100  100   37       0   100    37>

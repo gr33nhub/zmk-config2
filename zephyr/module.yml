@@ -1,4 +1,4 @@
-name: zmk-keyboard-sofle-gren
+name: zmk-keyboard-sofle-green
 build:
   settings:
     board_root: .

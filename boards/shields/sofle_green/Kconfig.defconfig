@@ -1,4 +1,4 @@
-if SHIELD_SOFLE_GREN_LEFT
+if SHIELD_SOFLE_GREEN_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -18,7 +18,7 @@ config BT_MAX_PAIRED
 
 endif
 
-if SHIELD_SOFLE_GREN_LEFT || SHIELD_SOFLE_GREN_RIGHT
+if SHIELD_SOFLE_GREEN_LEFT || SHIELD_SOFLE_GREEN_RIGHT
 
 config ZMK_SPLIT
     default y
