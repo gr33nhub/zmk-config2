@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout_sofle_gren: physical_layout_sofle_gren {
+    physical_layout_sofle_green: physical_layout_sofle_green {
         compatible = "zmk,physical-layout";
         display-name = "Sofle gren";
         keys  //                     w   h    x    y     rot    rx    ry

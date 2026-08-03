@@ -1,5 +1,0 @@
-config SHIELD_SOFLE_GREN_LEFT
-    def_bool $(shields_list_contains,sofle_gren_left)
-
-config SHIELD_SOFLE_GREN_RIGHT
-    def_bool $(shields_list_contains,sofle_gren_right)

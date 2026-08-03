@@ -7,12 +7,12 @@
         wakeup-source;
 
         col-gpios
-            = <&pro_micro 19 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 15 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+            = <&pro_micro 10 GPIO_ACTIVE_HIGH>
             , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 10 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 19 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
@@ -29,7 +29,12 @@
     kscan = <&kscan0>;
 };
 
-&encoder_left0 {
+&matrix_transform0 {
+    row-offset = <5>;
+};
+
+
+&encoder_right0 {
     a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     status = "okay";
@@ -38,7 +43,7 @@
 // Assigning dummy pins to other part's encoders
 // just to satisfy the devicetree requirements.
 // No code will be compiled for these disabled encoders.
-&encoder_right0 {
+&encoder_left0 {
     a-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     b-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 };
