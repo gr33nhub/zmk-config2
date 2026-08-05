@@ -29,9 +29,9 @@
     kscan = <&kscan0>;
 };
 
-/* &matrix_transform0 { */
-/*     row-offset = <5>; */
-/* }; */
+&matrix_transform0 {
+    row-offset = <5>;
+};
 
 
 &encoder_right0 {
